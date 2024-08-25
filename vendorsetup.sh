@@ -20,7 +20,7 @@ echo 'Cloning Mediatek SEpolicy_vndr [3/5]'
 rm -rf device/mediatek/sepolicy_vndr
 if [ ! -d "device/mediatek/sepolicy_vndr" ]; then
     mkdir -p device/mediatek/sepolicy_vndr
-    git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git -b lineage-21 device/mediatek/sepolicy_vndr
+    git clone https://github.com/Geeky-Works-Here/device_mediatek_sepolicy_vndr device/mediatek/sepolicy_vndr
 fi
 
 echo 'Cloning Hardware Mediatek [4/5]'
